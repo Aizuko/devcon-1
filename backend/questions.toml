@@ -1,0 +1,84 @@
+# SecurityPrep Question Bank
+# Add questions here in original exam English (Level 3).
+# Run seed_questions.py to generate French (L1) and simplified English (L2) variants.
+#
+# Fields:
+#   id       - unique ID, format: m{module}_q{number}
+#   module   - module number (1-7)
+#   question - the question in original exam English
+#   options  - array of 4 answer choices
+#   correct  - index of correct answer (0-based)
+
+# ── Module 1: The Security Industry ──
+
+[[questions]]
+id = "m1_q1"
+module = 1
+question = "What is the primary role of a security guard?"
+options = ["To enforce criminal laws", "To protect people and property", "To conduct criminal investigations", "To make citizen's arrests"]
+correct = 1
+
+[[questions]]
+id = "m1_q2"
+module = 1
+question = "Under the Alberta Security Services and Investigators Act, who must hold a valid licence?"
+options = ["Only armed security guards", "All individuals performing security work", "Only security company owners", "Only guards working at night"]
+correct = 1
+
+[[questions]]
+id = "m1_q3"
+module = 1
+question = "What is the difference between a security guard and a peace officer?"
+options = ["There is no difference", "Security guards have more authority", "Peace officers have powers granted by legislation that security guards do not", "Security guards can issue fines"]
+correct = 2
+
+[[questions]]
+id = "m1_q4"
+module = 1
+question = "Which of the following is a key responsibility of a security guard on a static post?"
+options = ["Pursuing suspects off-site", "Monitoring access control points", "Issuing traffic violations", "Conducting undercover operations"]
+correct = 1
+
+[[questions]]
+id = "m1_q5"
+module = 1
+question = "What does 'due diligence' mean in the context of security work?"
+options = ["Using excessive force when necessary", "Taking reasonable care to prevent foreseeable harm", "Ignoring minor incidents", "Delegating all responsibilities to law enforcement"]
+correct = 1
+
+# ── Module 2: Legal Authority ──
+
+[[questions]]
+id = "m2_q1"
+module = 2
+question = "Under Section 494 of the Criminal Code, when can a private citizen make an arrest?"
+options = ["At any time for any reason", "Only when they find someone committing an indictable offence", "Only with a warrant", "Only during daylight hours"]
+correct = 1
+
+[[questions]]
+id = "m2_q2"
+module = 2
+question = "What level of force is a security guard legally permitted to use when making an arrest?"
+options = ["Maximum force to ensure compliance", "Reasonable force that is necessary in the circumstances", "No force under any circumstances", "Deadly force if the suspect resists"]
+correct = 1
+
+[[questions]]
+id = "m2_q3"
+module = 2
+question = "What is the Trespass to Premises Act used for in security work?"
+options = ["To allow guards to search personal belongings", "To authorize the removal of unauthorized persons from private property", "To grant guards the power of arrest for any offence", "To permit surveillance of public areas"]
+correct = 1
+
+[[questions]]
+id = "m2_q4"
+module = 2
+question = "Which of the following would constitute unlawful detention by a security guard?"
+options = ["Holding a shoplifter until police arrive", "Detaining someone based solely on their appearance", "Asking someone to wait while verifying their ID badge", "Escorting a trespasser to the exit"]
+correct = 1
+
+[[questions]]
+id = "m2_q5"
+module = 2
+question = "What must a security guard do immediately after making a citizen's arrest?"
+options = ["Transport the person to jail", "Contact their supervisor only", "Turn the arrested person over to a peace officer as soon as possible", "Release the person with a warning"]
+correct = 2

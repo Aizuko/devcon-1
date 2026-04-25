@@ -1,0 +1,342 @@
+[
+  {
+    "id": "m1_q1",
+    "module": 1,
+    "correct": 1,
+    "levels": {
+      "1": {
+        "question": "[French placeholder]",
+        "options": [
+          "To enforce criminal laws",
+          "To protect people and property",
+          "To conduct criminal investigations",
+          "To make citizen's arrests"
+        ]
+      },
+      "2": {
+        "question": "[Simple placeholder]",
+        "options": [
+          "To enforce criminal laws",
+          "To protect people and property",
+          "To conduct criminal investigations",
+          "To make citizen's arrests"
+        ]
+      },
+      "3": {
+        "question": "What is the primary role of a security guard?",
+        "options": [
+          "To enforce criminal laws",
+          "To protect people and property",
+          "To conduct criminal investigations",
+          "To make citizen's arrests"
+        ]
+      }
+    }
+  },
+  {
+    "id": "m1_q2",
+    "module": 1,
+    "correct": 1,
+    "levels": {
+      "1": {
+        "question": "[French placeholder]",
+        "options": [
+          "Only armed security guards",
+          "All individuals performing security work",
+          "Only security company owners",
+          "Only guards working at night"
+        ]
+      },
+      "2": {
+        "question": "[Simple placeholder]",
+        "options": [
+          "Only armed security guards",
+          "All individuals performing security work",
+          "Only security company owners",
+          "Only guards working at night"
+        ]
+      },
+      "3": {
+        "question": "Under the Alberta Security Services and Investigators Act, who must hold a valid licence?",
+        "options": [
+          "Only armed security guards",
+          "All individuals performing security work",
+          "Only security company owners",
+          "Only guards working at night"
+        ]
+      }
+    }
+  },
+  {
+    "id": "m1_q3",
+    "module": 1,
+    "correct": 2,
+    "levels": {
+      "1": {
+        "question": "[French placeholder]",
+        "options": [
+          "There is no difference",
+          "Security guards have more authority",
+          "Peace officers have powers granted by legislation that security guards do not",
+          "Security guards can issue fines"
+        ]
+      },
+      "2": {
+        "question": "[Simple placeholder]",
+        "options": [
+          "There is no difference",
+          "Security guards have more authority",
+          "Peace officers have powers granted by legislation that security guards do not",
+          "Security guards can issue fines"
+        ]
+      },
+      "3": {
+        "question": "What is the difference between a security guard and a peace officer?",
+        "options": [
+          "There is no difference",
+          "Security guards have more authority",
+          "Peace officers have powers granted by legislation that security guards do not",
+          "Security guards can issue fines"
+        ]
+      }
+    }
+  },
+  {
+    "id": "m1_q4",
+    "module": 1,
+    "correct": 1,
+    "levels": {
+      "1": {
+        "question": "[French placeholder]",
+        "options": [
+          "Pursuing suspects off-site",
+          "Monitoring access control points",
+          "Issuing traffic violations",
+          "Conducting undercover operations"
+        ]
+      },
+      "2": {
+        "question": "[Simple placeholder]",
+        "options": [
+          "Pursuing suspects off-site",
+          "Monitoring access control points",
+          "Issuing traffic violations",
+          "Conducting undercover operations"
+        ]
+      },
+      "3": {
+        "question": "Which of the following is a key responsibility of a security guard on a static post?",
+        "options": [
+          "Pursuing suspects off-site",
+          "Monitoring access control points",
+          "Issuing traffic violations",
+          "Conducting undercover operations"
+        ]
+      }
+    }
+  },
+  {
+    "id": "m1_q5",
+    "module": 1,
+    "correct": 1,
+    "levels": {
+      "1": {
+        "question": "[French placeholder]",
+        "options": [
+          "Using excessive force when necessary",
+          "Taking reasonable care to prevent foreseeable harm",
+          "Ignoring minor incidents",
+          "Delegating all responsibilities to law enforcement"
+        ]
+      },
+      "2": {
+        "question": "[Simple placeholder]",
+        "options": [
+          "Using excessive force when necessary",
+          "Taking reasonable care to prevent foreseeable harm",
+          "Ignoring minor incidents",
+          "Delegating all responsibilities to law enforcement"
+        ]
+      },
+      "3": {
+        "question": "What does 'due diligence' mean in the context of security work?",
+        "options": [
+          "Using excessive force when necessary",
+          "Taking reasonable care to prevent foreseeable harm",
+          "Ignoring minor incidents",
+          "Delegating all responsibilities to law enforcement"
+        ]
+      }
+    }
+  },
+  {
+    "id": "m2_q1",
+    "module": 2,
+    "correct": 1,
+    "levels": {
+      "1": {
+        "question": "[French placeholder]",
+        "options": [
+          "At any time for any reason",
+          "Only when they find someone committing an indictable offence",
+          "Only with a warrant",
+          "Only during daylight hours"
+        ]
+      },
+      "2": {
+        "question": "[Simple placeholder]",
+        "options": [
+          "At any time for any reason",
+          "Only when they find someone committing an indictable offence",
+          "Only with a warrant",
+          "Only during daylight hours"
+        ]
+      },
+      "3": {
+        "question": "Under Section 494 of the Criminal Code, when can a private citizen make an arrest?",
+        "options": [
+          "At any time for any reason",
+          "Only when they find someone committing an indictable offence",
+          "Only with a warrant",
+          "Only during daylight hours"
+        ]
+      }
+    }
+  },
+  {
+    "id": "m2_q2",
+    "module": 2,
+    "correct": 1,
+    "levels": {
+      "1": {
+        "question": "[French placeholder]",
+        "options": [
+          "Maximum force to ensure compliance",
+          "Reasonable force that is necessary in the circumstances",
+          "No force under any circumstances",
+          "Deadly force if the suspect resists"
+        ]
+      },
+      "2": {
+        "question": "[Simple placeholder]",
+        "options": [
+          "Maximum force to ensure compliance",
+          "Reasonable force that is necessary in the circumstances",
+          "No force under any circumstances",
+          "Deadly force if the suspect resists"
+        ]
+      },
+      "3": {
+        "question": "What level of force is a security guard legally permitted to use when making an arrest?",
+        "options": [
+          "Maximum force to ensure compliance",
+          "Reasonable force that is necessary in the circumstances",
+          "No force under any circumstances",
+          "Deadly force if the suspect resists"
+        ]
+      }
+    }
+  },
+  {
+    "id": "m2_q3",
+    "module": 2,
+    "correct": 1,
+    "levels": {
+      "1": {
+        "question": "[French placeholder]",
+        "options": [
+          "To allow guards to search personal belongings",
+          "To authorize the removal of unauthorized persons from private property",
+          "To grant guards the power of arrest for any offence",
+          "To permit surveillance of public areas"
+        ]
+      },
+      "2": {
+        "question": "[Simple placeholder]",
+        "options": [
+          "To allow guards to search personal belongings",
+          "To authorize the removal of unauthorized persons from private property",
+          "To grant guards the power of arrest for any offence",
+          "To permit surveillance of public areas"
+        ]
+      },
+      "3": {
+        "question": "What is the Trespass to Premises Act used for in security work?",
+        "options": [
+          "To allow guards to search personal belongings",
+          "To authorize the removal of unauthorized persons from private property",
+          "To grant guards the power of arrest for any offence",
+          "To permit surveillance of public areas"
+        ]
+      }
+    }
+  },
+  {
+    "id": "m2_q4",
+    "module": 2,
+    "correct": 1,
+    "levels": {
+      "1": {
+        "question": "[French placeholder]",
+        "options": [
+          "Holding a shoplifter until police arrive",
+          "Detaining someone based solely on their appearance",
+          "Asking someone to wait while verifying their ID badge",
+          "Escorting a trespasser to the exit"
+        ]
+      },
+      "2": {
+        "question": "[Simple placeholder]",
+        "options": [
+          "Holding a shoplifter until police arrive",
+          "Detaining someone based solely on their appearance",
+          "Asking someone to wait while verifying their ID badge",
+          "Escorting a trespasser to the exit"
+        ]
+      },
+      "3": {
+        "question": "Which of the following would constitute unlawful detention by a security guard?",
+        "options": [
+          "Holding a shoplifter until police arrive",
+          "Detaining someone based solely on their appearance",
+          "Asking someone to wait while verifying their ID badge",
+          "Escorting a trespasser to the exit"
+        ]
+      }
+    }
+  },
+  {
+    "id": "m2_q5",
+    "module": 2,
+    "correct": 2,
+    "levels": {
+      "1": {
+        "question": "[French placeholder]",
+        "options": [
+          "Transport the person to jail",
+          "Contact their supervisor only",
+          "Turn the arrested person over to a peace officer as soon as possible",
+          "Release the person with a warning"
+        ]
+      },
+      "2": {
+        "question": "[Simple placeholder]",
+        "options": [
+          "Transport the person to jail",
+          "Contact their supervisor only",
+          "Turn the arrested person over to a peace officer as soon as possible",
+          "Release the person with a warning"
+        ]
+      },
+      "3": {
+        "question": "What must a security guard do immediately after making a citizen's arrest?",
+        "options": [
+          "Transport the person to jail",
+          "Contact their supervisor only",
+          "Turn the arrested person over to a peace officer as soon as possible",
+          "Release the person with a warning"
+        ]
+      }
+    }
+  }
+]
