@@ -13,7 +13,7 @@ from openai import OpenAI
 
 TOML_PATH = "questions.toml"
 OUTPUT_PATH = "questions.json"
-MODEL = os.environ.get("BEDROCK_MODEL", "anthropic.claude-3-haiku-20240307-v1:0")
+MODEL = os.environ.get("SEED_MODEL", "openai/gpt-oss-120b")
 
 client = OpenAI()
 
@@ -22,7 +22,7 @@ def call_llm(prompt: str) -> str:
     resp = client.chat.completions.create(
         model=MODEL,
         messages=[{"role": "user", "content": prompt}],
-        max_tokens=1024,
+        max_tokens=4096,
     )
     return resp.choices[0].message.content
 

@@ -5,21 +5,21 @@
     "correct": 1,
     "levels": {
       "1": {
-        "question": "[French placeholder]",
+        "question": "Quel est le rôle principal d'un agent de sécurité ?",
         "options": [
-          "To enforce criminal laws",
-          "To protect people and property",
-          "To conduct criminal investigations",
-          "To make citizen's arrests"
+          "Faire respecter les lois pénales",
+          "Protéger les personnes et les biens",
+          "Mener des enquêtes criminelles",
+          "Procéder à des arrestations citoyennes"
         ]
       },
       "2": {
-        "question": "[Simple placeholder]",
+        "question": "What is the main job of a security guard?",
         "options": [
-          "To enforce criminal laws",
-          "To protect people and property",
-          "To conduct criminal investigations",
-          "To make citizen's arrests"
+          "To catch people who break laws",
+          "To keep people and things safe",
+          "To find out who did bad things",
+          "To stop people and hold them"
         ]
       },
       "3": {
@@ -39,21 +39,21 @@
     "correct": 1,
     "levels": {
       "1": {
-        "question": "[French placeholder]",
+        "question": "Selon la Loi sur les services de sécurité et les enquêteurs de l'Alberta, qui doit détenir un permis valide?",
         "options": [
-          "Only armed security guards",
-          "All individuals performing security work",
-          "Only security company owners",
-          "Only guards working at night"
+          "Seulement les agents de sécurité armés",
+          "Toutes les personnes effectuant du travail de sécurité",
+          "Seulement les propriétaires d'entreprises de sécurité",
+          "Seulement les gardiens travaillant de nuit"
         ]
       },
       "2": {
-        "question": "[Simple placeholder]",
+        "question": "Who needs to have a license to do security work in Alberta?",
         "options": [
-          "Only armed security guards",
-          "All individuals performing security work",
-          "Only security company owners",
-          "Only guards working at night"
+          "Only guards who carry guns",
+          "All people who do security jobs",
+          "Only people who own security companies",
+          "Only guards who work at night"
         ]
       },
       "3": {
@@ -73,21 +73,21 @@
     "correct": 2,
     "levels": {
       "1": {
-        "question": "[French placeholder]",
+        "question": "Quelle est la différence entre un agent de sécurité et un agent de la paix ?",
         "options": [
-          "There is no difference",
-          "Security guards have more authority",
-          "Peace officers have powers granted by legislation that security guards do not",
-          "Security guards can issue fines"
+          "Il n'y a aucune différence",
+          "Les agents de sécurité ont plus d'autorité",
+          "Les agents de la paix ont des pouvoirs accordés par la législation que les agents de sécurité n'ont pas",
+          "Les agents de sécurité peuvent émettre des amendes"
         ]
       },
       "2": {
-        "question": "[Simple placeholder]",
+        "question": "What is different about a security guard and a peace officer?",
         "options": [
-          "There is no difference",
-          "Security guards have more authority",
-          "Peace officers have powers granted by legislation that security guards do not",
-          "Security guards can issue fines"
+          "They are the same",
+          "Security guards have more power",
+          "Peace officers have special powers from the law that security guards do not have",
+          "Security guards can give out tickets"
         ]
       },
       "3": {
@@ -107,21 +107,21 @@
     "correct": 1,
     "levels": {
       "1": {
-        "question": "[French placeholder]",
+        "question": "Laquelle des responsabilités suivantes est une responsabilité clé d'un agent de sécurité sur un poste fixe ?",
         "options": [
-          "Pursuing suspects off-site",
-          "Monitoring access control points",
-          "Issuing traffic violations",
-          "Conducting undercover operations"
+          "Poursuivre les suspects hors site",
+          "Surveiller les points de contrôle d'accès",
+          "Émettre des contraventions de circulation",
+          "Mener des opérations d'infiltration"
         ]
       },
       "2": {
-        "question": "[Simple placeholder]",
+        "question": "What is an important job of a security guard who stays in one place?",
         "options": [
-          "Pursuing suspects off-site",
-          "Monitoring access control points",
-          "Issuing traffic violations",
-          "Conducting undercover operations"
+          "Chasing bad people away from the building",
+          "Watching who goes in and out of doors",
+          "Giving tickets to cars",
+          "Working in secret clothes"
         ]
       },
       "3": {
@@ -141,21 +141,21 @@
     "correct": 1,
     "levels": {
       "1": {
-        "question": "[French placeholder]",
+        "question": "Que signifie « diligence raisonnable » dans le contexte du travail de sécurité ?",
         "options": [
-          "Using excessive force when necessary",
-          "Taking reasonable care to prevent foreseeable harm",
-          "Ignoring minor incidents",
-          "Delegating all responsibilities to law enforcement"
+          "Utiliser une force excessive lorsque nécessaire",
+          "Prendre des précautions raisonnables pour prévenir les dommages prévisibles",
+          "Ignorer les incidents mineurs",
+          "Déléguer toutes les responsabilités aux forces de l'ordre"
         ]
       },
       "2": {
-        "question": "[Simple placeholder]",
+        "question": "What does 'due diligence' mean when doing security work?",
         "options": [
-          "Using excessive force when necessary",
-          "Taking reasonable care to prevent foreseeable harm",
-          "Ignoring minor incidents",
-          "Delegating all responsibilities to law enforcement"
+          "Using too much force when you need to",
+          "Being careful to stop harm before it happens",
+          "Not caring about small problems",
+          "Letting the police do everything"
         ]
       },
       "3": {
@@ -175,21 +175,21 @@
     "correct": 1,
     "levels": {
       "1": {
-        "question": "[French placeholder]",
+        "question": "En vertu de l'article 494 du Code criminel, quand un citoyen privé peut-il procéder à une arrestation ?",
         "options": [
-          "At any time for any reason",
-          "Only when they find someone committing an indictable offence",
-          "Only with a warrant",
-          "Only during daylight hours"
+          "À tout moment pour n'importe quelle raison",
+          "Seulement lorsqu'il trouve quelqu'un en train de commettre un acte criminel",
+          "Seulement avec un mandat",
+          "Seulement pendant les heures de jour"
         ]
       },
       "2": {
-        "question": "[Simple placeholder]",
+        "question": "When can a regular person arrest someone else?",
         "options": [
-          "At any time for any reason",
-          "Only when they find someone committing an indictable offence",
-          "Only with a warrant",
-          "Only during daylight hours"
+          "Any time for any reason",
+          "Only when they see someone doing a big crime",
+          "Only with special papers from police",
+          "Only when it is light outside"
         ]
       },
       "3": {
@@ -209,21 +209,21 @@
     "correct": 1,
     "levels": {
       "1": {
-        "question": "[French placeholder]",
+        "question": "Quel niveau de force un agent de sécurité est-il légalement autorisé à utiliser lors d'une arrestation ?",
         "options": [
-          "Maximum force to ensure compliance",
-          "Reasonable force that is necessary in the circumstances",
-          "No force under any circumstances",
-          "Deadly force if the suspect resists"
+          "Force maximale pour assurer la conformité",
+          "Force raisonnable qui est nécessaire dans les circonstances",
+          "Aucune force en aucune circonstance",
+          "Force mortelle si le suspect résiste"
         ]
       },
       "2": {
-        "question": "[Simple placeholder]",
+        "question": "How much force can a security guard use when they arrest someone?",
         "options": [
-          "Maximum force to ensure compliance",
-          "Reasonable force that is necessary in the circumstances",
-          "No force under any circumstances",
-          "Deadly force if the suspect resists"
+          "They can use as much force as they want",
+          "They can use only the force they need for the situation",
+          "They cannot use any force at all",
+          "They can use deadly force if the person fights back"
         ]
       },
       "3": {
@@ -243,21 +243,21 @@
     "correct": 1,
     "levels": {
       "1": {
-        "question": "[French placeholder]",
+        "question": "À quoi sert la Loi sur l'intrusion dans les locaux dans le travail de sécurité ?",
         "options": [
-          "To allow guards to search personal belongings",
-          "To authorize the removal of unauthorized persons from private property",
-          "To grant guards the power of arrest for any offence",
-          "To permit surveillance of public areas"
+          "Pour permettre aux gardes de fouiller les effets personnels",
+          "Pour autoriser l'expulsion de personnes non autorisées d'une propriété privée",
+          "Pour accorder aux gardes le pouvoir d'arrestation pour toute infraction",
+          "Pour permettre la surveillance des espaces publics"
         ]
       },
       "2": {
-        "question": "[Simple placeholder]",
+        "question": "What is the Trespass to Premises Act used for in guard work?",
         "options": [
-          "To allow guards to search personal belongings",
-          "To authorize the removal of unauthorized persons from private property",
-          "To grant guards the power of arrest for any offence",
-          "To permit surveillance of public areas"
+          "To let guards look through people's bags",
+          "To let guards make people leave private property when they should not be there",
+          "To let guards arrest people for any bad thing they do",
+          "To let guards watch public places"
         ]
       },
       "3": {
@@ -277,21 +277,21 @@
     "correct": 1,
     "levels": {
       "1": {
-        "question": "[French placeholder]",
+        "question": "Lequel des éléments suivants constituerait une détention illégale par un agent de sécurité ?",
         "options": [
-          "Holding a shoplifter until police arrive",
-          "Detaining someone based solely on their appearance",
-          "Asking someone to wait while verifying their ID badge",
-          "Escorting a trespasser to the exit"
+          "Retenir un voleur à l'étalage jusqu'à l'arrivée de la police",
+          "Détenir quelqu'un uniquement en fonction de son apparence",
+          "Demander à quelqu'un d'attendre pendant la vérification de son badge d'identité",
+          "Escorter un intrus vers la sortie"
         ]
       },
       "2": {
-        "question": "[Simple placeholder]",
+        "question": "Which action by a security guard would be wrong and against the law?",
         "options": [
-          "Holding a shoplifter until police arrive",
-          "Detaining someone based solely on their appearance",
-          "Asking someone to wait while verifying their ID badge",
-          "Escorting a trespasser to the exit"
+          "Keeping a person who stole something until the police come",
+          "Stopping someone just because of how they look",
+          "Asking someone to wait while checking their ID card",
+          "Walking someone who should not be there to the door"
         ]
       },
       "3": {
@@ -311,21 +311,21 @@
     "correct": 2,
     "levels": {
       "1": {
-        "question": "[French placeholder]",
+        "question": "Que doit faire un agent de sécurité immédiatement après avoir procédé à une arrestation citoyenne ?",
         "options": [
-          "Transport the person to jail",
-          "Contact their supervisor only",
-          "Turn the arrested person over to a peace officer as soon as possible",
-          "Release the person with a warning"
+          "Transporter la personne en prison",
+          "Contacter uniquement son superviseur",
+          "Remettre la personne arrêtée à un agent de la paix dès que possible",
+          "Libérer la personne avec un avertissement"
         ]
       },
       "2": {
-        "question": "[Simple placeholder]",
+        "question": "What must a security guard do right away after they arrest someone?",
         "options": [
-          "Transport the person to jail",
-          "Contact their supervisor only",
-          "Turn the arrested person over to a peace officer as soon as possible",
-          "Release the person with a warning"
+          "Take the person to jail",
+          "Call their boss only",
+          "Give the person to a police officer as fast as they can",
+          "Let the person go with a warning"
         ]
       },
       "3": {
