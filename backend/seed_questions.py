@@ -1,31 +1,30 @@
 """
-Seed script: reads questions.toml, calls Bedrock (Claude 3 Haiku) to generate
-French (L1) and simplified English (L2) variants, outputs questions.json.
+Seed script: reads questions.toml, calls Bedrock (via OpenAI-compatible endpoint)
+to generate French (L1) and simplified English (L2) variants, outputs questions.json.
 
 Usage:
-    python seed_questions.py                  # uses default region us-east-1
-    AWS_REGION=us-west-2 python seed_questions.py
+    export OPENAI_API_KEY="bedrock-api-key-..."
+    export OPENAI_BASE_URL="https://bedrock-mantle.us-west-2.api.aws/v1"
+    python seed_questions.py
 """
 
-import json, os, time, tomli, boto3
+import json, os, time, tomli
+from openai import OpenAI
 
-REGION = os.environ.get("AWS_REGION", "us-east-1")
-MODEL_ID = os.environ.get("BEDROCK_MODEL_ID", "anthropic.claude-3-haiku-20240307-v1:0")
 TOML_PATH = "questions.toml"
 OUTPUT_PATH = "questions.json"
+MODEL = os.environ.get("BEDROCK_MODEL", "anthropic.claude-3-haiku-20240307-v1:0")
 
-bedrock = boto3.client("bedrock-runtime", region_name=REGION)
+client = OpenAI()
 
 
-def call_bedrock(prompt: str) -> str:
-    body = json.dumps({
-        "anthropic_version": "bedrock-2023-05-31",
-        "max_tokens": 1024,
-        "messages": [{"role": "user", "content": prompt}],
-    })
-    resp = bedrock.invoke_model(modelId=MODEL_ID, body=body, contentType="application/json")
-    result = json.loads(resp["body"].read())
-    return result["content"][0]["text"]
+def call_llm(prompt: str) -> str:
+    resp = client.chat.completions.create(
+        model=MODEL,
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=1024,
+    )
+    return resp.choices[0].message.content
 
 
 def generate_variant(question: str, options: list[str], mode: str) -> dict:
@@ -41,19 +40,14 @@ def generate_variant(question: str, options: list[str], mode: str) -> dict:
             "Return ONLY a JSON object with keys \"question\" (string) and \"options\" (array of strings). No extra text."
         )
 
-    prompt = f"""{instruction}
-
-Question: {question}
-Options: {json.dumps(options)}"""
+    prompt = f"{instruction}\n\nQuestion: {question}\nOptions: {json.dumps(options)}"
 
     for attempt in range(3):
         try:
-            raw = call_bedrock(prompt)
-            # Strip markdown fences if present
-            text = raw.strip()
-            if text.startswith("```"):
-                text = text.split("\n", 1)[1].rsplit("```", 1)[0].strip()
-            return json.loads(text)
+            raw = call_llm(prompt).strip()
+            if raw.startswith("```"):
+                raw = raw.split("\n", 1)[1].rsplit("```", 1)[0].strip()
+            return json.loads(raw)
         except Exception as e:
             print(f"  Attempt {attempt+1} failed ({e}), retrying...")
             time.sleep(2)
@@ -70,7 +64,7 @@ def main():
 
         french = generate_variant(q["question"], q["options"], "french")
         print(f"  ✓ French")
-        time.sleep(0.5)  # rate limit courtesy
+        time.sleep(0.5)
 
         simple = generate_variant(q["question"], q["options"], "simple")
         print(f"  ✓ Simple English")
